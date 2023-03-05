@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/audi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:paddingHorizontal="50dp"
+        android:text="The Audi RS 4 is the high-performance variant of the Audi A4 range produced by Audi Sport GmbH for AUDI AG, a division of the Volkswagen Group. It sits above the Audi S4 as the fastest, most sports-focused car based on the A4's automobile platform. The RS 4 was reintroduced in 2012, based on the A4 Avant instead of the sedan as did the original model."
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
